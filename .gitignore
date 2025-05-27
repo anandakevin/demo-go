@@ -14,8 +14,8 @@
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
 
-# Dependency directories (remove the comment below to include it)
-# vendor/
+# log outputs
+*.log
 
 # Go workspace file
 go.work
@@ -28,5 +28,4 @@ vendor
 tmp
 
 .idea
-
-logs
+.DS_Store
